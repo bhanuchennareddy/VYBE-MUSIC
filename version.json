@@ -1,44 +1,53 @@
 {
-  "version": "4.1.4",
-  "versionCode": 9,
+  "version": "4.1.7",
+  "versionCode": 10,
   "forceUpdate": false,
   "minVersion": "4.1.0",
   "releaseDate": "September 26, 2026",
-  "size": "69.1 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.4/VYBE-Music-v4.1.4.apk",
+  "size": "69.4 MB",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.7/VYBE-Music-v4.1.7.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE MUSIC v4.1.4 — Liquid Glass Navigation Bar Restored with Smooth Tab Indicator Animation, Google-Themed Update Dialog with Build Code & Google Verified Badge, and Automated Direct OTA Updates.",
+  "description": "VYBE Music v4.1.7 — Animated Dynamic Island with Live Equalizer Waveform, Instagram & Social Video Music Identifier, and Real-Time Cross-Device Admin Push Notifications.",
+  "announcement": {
+    "id": "announcement_welcome_v417",
+    "title": "Welcome To VYBE Music",
+    "message": "Welcome to VYBE Music! Enjoy infinite ad-free music, animated dynamic island, beat sync party mode, and liquid glass navigation.",
+    "type": "INFO",
+    "enabled": true,
+    "targetEmail": "",
+    "actionText": "",
+    "actionUrl": ""
+  },
   "changelog": [
     {
-      "title": "Liquid Glass Navigation Bar & Tab Animation",
+      "title": "Animated Dynamic Island with Equalizer Waveform",
       "items": [
-        "Restored Liquid Glass Theme: Frosted liquid glass backdrop with subtle luminous translucency and specular border outline on the bottom floating navigation bar",
-        "Smooth Spring-Physics Tab Sliding Animation: Selection indicator pill dynamically stretches and glides between tabs with responsive spring motion",
-        "Automatic Preference Migration: Upgraded installations automatically activate the liquid glass experience"
+        "Live 4-Bar Equalizer Waveform: Bouncing audio visualizer animates in sync with music playback at the top pill",
+        "Fluid Spring-Physics Morphing: Smooth expand & collapse transitions with physics-based spring damping",
+        "Compact & Expanded Control States: Rotating vinyl artwork, marquee scrolling song title, scrub bar, and one-tap player expansion"
       ]
     },
     {
-      "title": "Google-Themed In-App Update Dialog",
+      "title": "Instagram Reels, TikTok & Shorts Music Identifier",
       "items": [
-        "Authentic Google Aesthetic: Features the Google 'G' badge, Google Verified security pill, Google Blue pill buttons, and Google dark surface container",
-        "Build & Version Code Display: Prominently highlights Build 9 and Version 4.1.4 alongside formatted release notes",
-        "Direct OTA Update: Immediate notification prompt on home screen with one-tap install"
+        "Direct Share-to-Identify: Share any video link from Instagram Reels, TikTok, or YouTube Shorts into VYBE Music",
+        "Intelligent Audio Extraction: Automatically resolves background music track and artist names from video page metadata",
+        "One-Tap Instant Playback: Matched song badge appears in Dynamic Island with single-tap queue playback"
       ]
     },
     {
-      "title": "Listen Together Beat Sync & Bass Boost",
+      "title": "Real-Time Cross-Device Admin Push Notifications",
       "items": [
-        "Same Time Exact Accuracy: Tightly tuned drift thresholds (120ms snap seek, 20ms micro-adjust) and 1s high-precision heartbeats ensure both phones play at the exact same millisecond with zero audible echo",
-        "Beat Sync Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones for powerful, punchy party sound",
-        "Stream Sync & Host Control: Resolved guest audio track synchronization and defaulted room playback to Host Only Control"
+        "Instant Multi-Phone Delivery: Notifications sent from Admin Screen broadcast immediately across all member devices via pub/sub cloud relay",
+        "Automatic Catch-Up Sync: Offline devices automatically receive queued announcements on app startup or periodic background sync",
+        "System Sound & Vibration: High-priority heads-up notifications with tap-to-open navigation and in-app home banner"
       ]
     },
     {
-      "title": "2-Button & 3-Button Navigation Support",
+      "title": "Liquid Glass Navigation & Listen Together Beat Sync",
       "items": [
-        "Navigation Mode Compatibility: Added dedicated protective backing behind Android 2-button and 3-button system navigation bars to eliminate visual clash",
-        "Ergonomic Floating Clearance: Elevated floating navigation bar to prevent accidental system button presses in 2-button and 3-button modes",
-        "Search Tab Indicator: Unified search into the liquid glass floating pill with smooth spring-physics sliding indicator"
+        "Frosted Liquid Glass Navigation: Specular translucent bottom pill with smooth spring tab glide",
+        "Sub-20ms Drift Sync: Hardware-accelerated bass boost and exact millisecond party mode playback"
       ]
     }
   ]

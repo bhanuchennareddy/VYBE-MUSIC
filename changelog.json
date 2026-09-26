@@ -1,18 +1,16 @@
 {
-  "version": "4.1.4",
-  "versionCode": 9,
-  "description": "VYBE Music v4.1.4 — Liquid Glass Navigation Bar Restored with Smooth Tab Indicator Animation, Google-Themed Update Dialog with Build Code & Google Verified Badge, and Automated Direct OTA Updates.",
+  "version": "4.1.7",
+  "versionCode": 10,
+  "description": "VYBE Music v4.1.7 — Animated Dynamic Island with Live Equalizer Waveform, Instagram & Social Video Music Identifier, and Real-Time Cross-Device Admin Push Notifications.",
   "changelog": [
-    "Liquid Glass Navigation Bar: Frosted liquid glass backdrop with subtle luminous translucency and specular border outline on the bottom floating navigation bar",
-    "Smooth Spring Tab Indicator Animation: Selection indicator pill dynamically stretches and glides between tabs with responsive spring motion",
-    "Automatic Glass Migration: Upgraded devices automatically enable the liquid glass navigation bar",
-    "Google-Themed Update Dialog: Features the Google 'G' badge, Google Verified security pill, Google Blue accent button, and dark container",
-    "Prominent Build Code: Displays Build 9 and Version 4.1.4 in update announcements",
+    "Animated Dynamic Island: Live bouncing 4-bar equalizer waveform visualizer responding to active music playback",
+    "Spring-Physics Dynamic Island: Fluid morphing between compact pill, expanded controls, and song identification radar",
+    "Instagram & Video Music Identification: Share reels, TikToks, or Shorts into VYBE Music to identify songs and play with 1 tap",
+    "Real-Time Cross-Device Push Notifications: Announcements sent by admin to 'All Members' are broadcast instantly across all devices",
+    "Automatic Announcement Catch-Up: Offline or asleep devices catch up and display push alerts upon wake or startup",
+    "Liquid Glass Navigation Bar: Frosted translucent bottom pill with smooth spring tab glide",
     "Listen Together Beat Sync Precision: Sub-20ms drift synchronization across all paired devices for zero-echo playback",
-    "Listen Together Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones for powerful party sound",
-    "Search Navigation & Animation: Fixed tab indicator smoothly highlighting Search and instant search activation from bottom bar",
-    "Listen Together Host Control & Stream Sync: Fixed guest automatic track reception from host and defaulted room playback to Host Only Control",
-    "Admin Portal Cleanup: Streamlined administrative workflow with Google member profiles",
-    "Zero Lag Performance Optimization: Pre-cached viewmodels and smooth 60fps scrolling"
+    "Listen Together Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones",
+    "Zero Lag Performance Optimization: Pre-cached viewmodels and buttery smooth 60fps scrolling"
   ]
 }
