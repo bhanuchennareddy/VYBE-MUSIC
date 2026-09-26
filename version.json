@@ -1,45 +1,36 @@
 {
-  "version": "4.1.2",
-  "versionCode": 7,
-  "forceUpdate": true,
-  "minVersion": "4.1.2",
+  "version": "4.1.3",
+  "versionCode": 8,
+  "forceUpdate": false,
+  "minVersion": "4.1.0",
   "releaseDate": "September 26, 2026",
-  "size": "68.8 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.2/VYBE-Music-v4.1.2.apk",
+  "size": "69.1 MB",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.3/VYBE-Music-v4.1.3.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE MUSIC v4.1.2 — Zero Lag Performance Optimization, Prominent Sleep Timer in Now Playing Menu & Badge, 'Update Now' or 'Later' options, and Cleaned Update Settings.",
+  "description": "VYBE MUSIC v4.1.3 — Listen Together Beat Sync Same-Time Precision & Bass Boost, In-App Update Dialog with changelogs on home page, Admin portal cleanup & operator email fix, and host-only song stability.",
   "changelog": [
     {
-      "title": "Zero Lag & Smooth Performance",
+      "title": "Listen Together Beat Sync Precision & Punchy Bass Boost",
       "items": [
-        "Unlocked full 90Hz / 120Hz / 144Hz high refresh rate hardware modes for ultra-responsive animations and silky scrolling",
-        "Optimized Compose GPU rendering by eliminating continuous offscreen backdrop captures when liquid glass is idle",
-        "Zero UI latency: buttery-smooth page transitions, drawer navigation, and player sheet expansion"
+        "Same Time Exact Accuracy: Tightly tuned drift thresholds (120ms snap seek, 20ms micro-adjust) and 1s high-precision heartbeats ensure both phones play at the exact same millisecond with zero audible echo",
+        "Beat Sync Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones for powerful, punchy party sound",
+        "Dedicated Bass Boost toggles in Room Controls and Settings for both Host and Guest listeners"
       ]
     },
     {
-      "title": "Prominent Sleep Timer",
+      "title": "In-App Update Dialog on Home Page",
       "items": [
-        "Added dedicated Sleep Timer pill button with live countdown directly in the Now Playing menu action grid",
-        "Added Sleep Timer as a top-level item in Player Menu with full interactive minutes slider and End of Song mode",
-        "Made audio quality/timer badge on player screen directly 1-tap clickable to set or adjust sleep timer"
+        "Automatic home page update popup displaying App Name (VYBE Music), version number, and structured bullet-point changelogs",
+        "Two-action control: 'Update Now' navigates directly to updater for instant download, while 'Later' cleanly dismisses dialog for the session",
+        "Seamless background GitHub release & version.json checks with zero UI latency"
       ]
     },
     {
-      "title": "Update System Polish",
+      "title": "Admin Portal Cleanup & Member Improvements",
       "items": [
-        "Added 'Update Now' or 'Later' options to Force Update overlay and Admin update dialogs with session deferral",
-        "Removed internal test and preview controls from Update Settings for a clean production interface",
-        "Admin Portal broadcast update notification button to trigger instant device alerts"
-      ]
-    },
-    {
-      "title": "Listen Together Real-Time Sync & Beat Sync",
-      "items": [
-        "True local audio synchronization: host play, pause, resume, seek, and track change instantly sync on all connected guests",
-        "Beat Sync: automatic micro-playback speed adjustment (1.03x / 0.97x) seamlessly eliminates drift without audio clicks",
-        "Restored full Play/Pause controls in Player and Mini Player for guests",
-        "Latency-compensated instant join and reconnect playback synchronization"
+        "Admin Portal Cleanup: Cleaned up Admin screen by removing the registration guide card for a streamlined administrative workflow",
+        "Fixed admin email display bug: portal operator email (admin@vybemusic.app) is strictly filtered out from the Registered Members list",
+        "Rich Google Member Cards: displays Google profile avatar, display name, verified Google badge, registered email, and active device indicator"
       ]
     }
   ]
