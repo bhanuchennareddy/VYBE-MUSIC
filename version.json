@@ -1,6 +1,8 @@
 {
   "version": "4.1.1",
   "versionCode": 6,
+  "forceUpdate": true,
+  "minVersion": "4.1.1",
   "releaseDate": "September 26, 2026",
   "size": "68.8 MB",
   "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.1/VYBE-Music-v4.1.1.apk",
