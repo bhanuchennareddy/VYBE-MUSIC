@@ -1,17 +1,17 @@
 {
-  "version": "4.1.7",
-  "versionCode": 10,
+  "version": "4.1.8",
+  "versionCode": 11,
   "forceUpdate": false,
   "minVersion": "4.1.0",
   "releaseDate": "September 26, 2026",
   "size": "69.4 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.7/VYBE-Music-v4.1.7.apk",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.8/VYBE-Music-v4.1.8.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v4.1.7 — Animated Dynamic Island with Live Equalizer Waveform, Instagram & Social Video Music Identifier, and Real-Time Cross-Device Admin Push Notifications.",
+  "description": "VYBE Music v4.1.8 — Social Video Music Identifier with Continuous Radio, Brand-New Transparent VYBE Update Dialog Logo, Native System Capsule Integration, and Real-Time Cross-Device Admin Push Notifications.",
   "announcement": {
-    "id": "announcement_welcome_v417",
+    "id": "announcement_welcome_v418",
     "title": "Welcome To VYBE Music",
-    "message": "Welcome to VYBE Music! Enjoy infinite ad-free music, animated dynamic island, beat sync party mode, and liquid glass navigation.",
+    "message": "Welcome to VYBE Music v4.1.8! Enjoy infinite ad-free music, intelligent video sound identification with continuous radio, and sleek transparent VYBE branding.",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -20,34 +20,33 @@
   },
   "changelog": [
     {
-      "title": "Animated Dynamic Island with Equalizer Waveform",
+      "title": "Instagram Reels, TikTok & Shorts Music Identifier",
       "items": [
-        "Live 4-Bar Equalizer Waveform: Bouncing audio visualizer animates in sync with music playback at the top pill",
-        "Fluid Spring-Physics Morphing: Smooth expand & collapse transitions with physics-based spring damping",
-        "Compact & Expanded Control States: Rotating vinyl artwork, marquee scrolling song title, scrub bar, and one-tap player expansion"
+        "Direct Share-to-Identify: Share any video link from Instagram Reels, TikTok, or YouTube Shorts directly into VYBE Music",
+        "Continuous Radio Playback: Tapping Play Now automatically initializes infinite radio playback matching the shared song style",
+        "Smart Video Sound Matcher: Crawls real audio metadata while gracefully falling back to built-in sound listening or manual search if no track is tagged",
+        "Clean Bottom Sheet Dialog: Non-intrusive bottom sheet displays identified track details, artwork, artist, and original audio source"
       ]
     },
     {
-      "title": "Instagram Reels, TikTok & Shorts Music Identifier",
+      "title": "Transparent VYBE Update Dialog Branding",
       "items": [
-        "Direct Share-to-Identify: Share any video link from Instagram Reels, TikTok, or YouTube Shorts into VYBE Music",
-        "Intelligent Audio Extraction: Automatically resolves background music track and artist names from video page metadata",
-        "One-Tap Instant Playback: Matched song badge appears in Dynamic Island with single-tap queue playback"
+        "Brand-New Transparent VYBE Logo: Replaced legacy Google badge with high-visibility transparent VYBE logo without background",
+        "Streamlined Update Modal: Clean official update indicator with quick single-tap OTA download"
+      ]
+    },
+    {
+      "title": "Native Android System Media Integration",
+      "items": [
+        "Native System Capsule Support: Seamlessly cooperates with realme Mini Capsule, OnePlus Fluid Cloud, HyperOS, and Android system media notifications",
+        "Clean Top Bar Branding: Preserves complete unhindered visibility of the VYBE logo, together icon, and account avatar"
       ]
     },
     {
       "title": "Real-Time Cross-Device Admin Push Notifications",
       "items": [
         "Instant Multi-Phone Delivery: Notifications sent from Admin Screen broadcast immediately across all member devices via pub/sub cloud relay",
-        "Automatic Catch-Up Sync: Offline devices automatically receive queued announcements on app startup or periodic background sync",
-        "System Sound & Vibration: High-priority heads-up notifications with tap-to-open navigation and in-app home banner"
-      ]
-    },
-    {
-      "title": "Liquid Glass Navigation & Listen Together Beat Sync",
-      "items": [
-        "Frosted Liquid Glass Navigation: Specular translucent bottom pill with smooth spring tab glide",
-        "Sub-20ms Drift Sync: Hardware-accelerated bass boost and exact millisecond party mode playback"
+        "Automatic Catch-Up Sync: Offline devices automatically receive queued announcements on app startup or periodic background sync"
       ]
     }
   ]

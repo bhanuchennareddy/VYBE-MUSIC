@@ -1,16 +1,15 @@
 {
-  "version": "4.1.7",
-  "versionCode": 10,
-  "description": "VYBE Music v4.1.7 — Animated Dynamic Island with Live Equalizer Waveform, Instagram & Social Video Music Identifier, and Real-Time Cross-Device Admin Push Notifications.",
+  "version": "4.1.8",
+  "versionCode": 11,
+  "description": "VYBE Music v4.1.8 — Social Video Music Identifier with Continuous Radio, Brand-New Transparent VYBE Update Dialog Logo, Native System Capsule Integration, and Real-Time Cross-Device Admin Push Notifications.",
   "changelog": [
-    "Animated Dynamic Island: Live bouncing 4-bar equalizer waveform visualizer responding to active music playback",
-    "Spring-Physics Dynamic Island: Fluid morphing between compact pill, expanded controls, and song identification radar",
-    "Instagram & Video Music Identification: Share reels, TikToks, or Shorts into VYBE Music to identify songs and play with 1 tap",
+    "Instagram & Video Music Identification: Share reels, TikToks, or Shorts into VYBE Music to identify songs and play with 1 tap via clean bottom sheet dialog",
+    "Continuous Radio Playback: Play Now automatically queues infinite matching songs so your music never abruptly stops",
+    "Transparent VYBE Update Logo: Replaced legacy Google badge with high-visibility transparent VYBE logo without background",
+    "Native System Capsule Integration: Cooperates with Android punch-hole capsules (realme Mini Capsule, OnePlus Fluid Cloud, HyperOS) with no in-app collision",
     "Real-Time Cross-Device Push Notifications: Announcements sent by admin to 'All Members' are broadcast instantly across all devices",
     "Automatic Announcement Catch-Up: Offline or asleep devices catch up and display push alerts upon wake or startup",
     "Liquid Glass Navigation Bar: Frosted translucent bottom pill with smooth spring tab glide",
-    "Listen Together Beat Sync Precision: Sub-20ms drift synchronization across all paired devices for zero-echo playback",
-    "Listen Together Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones",
-    "Zero Lag Performance Optimization: Pre-cached viewmodels and buttery smooth 60fps scrolling"
+    "Listen Together Beat Sync Precision: Sub-20ms drift synchronization across all paired devices for zero-echo playback"
   ]
 }
