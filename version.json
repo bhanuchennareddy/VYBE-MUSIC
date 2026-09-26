@@ -1,12 +1,22 @@
 {
-  "version": "4.1.0",
-  "versionCode": 5,
+  "version": "4.1.1",
+  "versionCode": 6,
   "releaseDate": "September 26, 2026",
-  "size": "68.7 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.0/VYBE-Music-v4.1.0.apk",
+  "size": "68.8 MB",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.1/VYBE-Music-v4.1.1.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE MUSIC v4.1.0 — Complete VYBE rebrand, Recap 9:16 Story export for Instagram/WhatsApp with seasonal themes, real-time floating emoji reactions in Listen Together, 30s gentle sleep timer fade-out, background GitHub auto-updater, and network playback fixes.",
+  "description": "VYBE MUSIC v4.1.1 — Listen Together Real-Time Playback Synchronization with Beat Sync drift micro-adjustment, restored guest play/pause controls, latency-compensated joins, and stability enhancements.",
   "changelog": [
+    {
+      "title": "Listen Together Real-Time Sync & Beat Sync",
+      "items": [
+        "True local audio synchronization: host play, pause, resume, seek, and track change instantly sync and play on all room guests",
+        "Beat Sync: automatic micro-playback speed adjustment (1.03x / 0.97x) seamlessly eliminates drift without audio clicks or interruptions",
+        "Restored full Play/Pause controls in Player and Mini Player, removing confusing mute icon hijacking for guests",
+        "Initial Join & Reconnect Sync: guests immediately start playing at synchronized host timestamp with latency compensation",
+        "Participant control enabled by default with automatic 2-second host heartbeat synchronization"
+      ]
+    },
     {
       "title": "Recap & Social Sharing",
       "items": [

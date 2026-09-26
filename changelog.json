@@ -1,8 +1,14 @@
 {
-  "version": "4.1.0",
-  "versionCode": 5,
-  "description": "VYBE Music v4.1.0 — Complete VYBE rebrand, Recap 9:16 Instagram Story/WhatsApp HD image export with seasonal themes, Listen Together live floating emoji reactions, 30s gentle sleep timer fade-out, background GitHub auto-updater, and cellular playback resiliency.",
+  "version": "4.1.1",
+  "versionCode": 6,
+  "description": "VYBE Music v4.1.1 — Listen Together Real-Time Playback Synchronization with Beat Sync drift micro-adjustment, restored guest play/pause controls, latency-compensated joins, and stability enhancements.",
   "changelog": [
+    "Listen Together: Instant real-time playback sync (Play, Pause, Resume, Seek, and Track Change) across all room members",
+    "Listen Together Beat Sync: Micro-speed adjustment (1.03x / 0.97x) seamlessly prevents audio drift and echoes without clicks",
+    "Restored normal Play/Pause buttons in Player & Mini Player (removed confusing mute toggle icon for guests)",
+    "Room creation defaults to allowing participant playback control for seamless collaborative sessions",
+    "Heartbeat sync interval tightened to 2 seconds with sub-second latency compensation",
+    "Initial join & reconnect sync immediately starts local playback at the host's exact elapsed position",
     "Recap 9:16 Instagram Story & WhatsApp HD Image Export with Google card branding",
     "Seasonal Themes for Recap (Winter Chill, Spring Groove, Summer Vybe, Autumn Warmth)",
     "Listen Together Live Floating Emoji Reactions (🔥, ❤️, 👏, ⚡, 💃) synced across all room listeners",
