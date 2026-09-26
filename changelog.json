@@ -1,19 +1,18 @@
 {
-  "version": "4.1.3",
-  "versionCode": 8,
-  "description": "VYBE Music v4.1.3 — Listen Together Beat Sync Same-Time Precision & Bass Boost, In-App Update Dialog with changelogs on home page, Admin portal cleanup & operator email fix, and host-only song stability.",
+  "version": "4.1.4",
+  "versionCode": 9,
+  "description": "VYBE Music v4.1.4 — Liquid Glass Navigation Bar Restored with Smooth Tab Indicator Animation, Google-Themed Update Dialog with Build Code & Google Verified Badge, and Automated Direct OTA Updates.",
   "changelog": [
-    "Listen Together Beat Sync Same-Time Accuracy: Tightly tuned drift thresholds (120ms snap seek, 20ms micro-adjust) and 1s high-precision heartbeats ensure both phones play at the exact same millisecond with zero audible echo",
-    "Listen Together Beat Sync Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones for powerful, punchy party sound",
-    "Dedicated Bass Boost toggles in Room Controls and Settings for both Host and Guest listeners",
-    "In-App Update Dialog: Automatic home page update popup displaying App Name (VYBE Music), version number, and structured bullet-point changelogs",
-    "Two-Action Update Control: 'Update Now' navigates directly to the updater screen for instant download, while 'Later' cleanly dismisses the dialog for the session",
-    "Admin Portal Cleanup: Cleaned up Admin screen by removing the registration guide card for a streamlined administrative workflow",
-    "Admin Email Filter Fix: Portal operator email (admin@vybemusic.app) is strictly filtered out from the Registered Members list and metrics",
-    "Rich Google Member Cards: Displays Google profile avatar, display name, verified Google badge, registered email, and active device indicator",
-    "Listen Together Song Stability: Heartbeat timestamp updates are strictly isolated from track change events to eliminate song tug-of-war bouncing",
-    "Listen Together Host-Only Control: When enabled by host, guest play/pause/skip actions are blocked with a polite toast notification",
-    "Smart Sleep Timer: Redesigned dialog with clear end-of-song option and gentle 30-second volume fade-out",
-    "Zero Lag Performance Optimization: Pre-cached viewmodels and lazy component rendering ensure smooth 60fps scrolling"
+    "Liquid Glass Navigation Bar: Frosted liquid glass backdrop with subtle luminous translucency and specular border outline on the bottom floating navigation bar",
+    "Smooth Spring Tab Indicator Animation: Selection indicator pill dynamically stretches and glides between tabs with responsive spring motion",
+    "Automatic Glass Migration: Upgraded devices automatically enable the liquid glass navigation bar",
+    "Google-Themed Update Dialog: Features the Google 'G' badge, Google Verified security pill, Google Blue accent button, and dark container",
+    "Prominent Build Code: Displays Build 9 and Version 4.1.4 in update announcements",
+    "Listen Together Beat Sync Precision: Sub-20ms drift synchronization across all paired devices for zero-echo playback",
+    "Listen Together Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones for powerful party sound",
+    "Search Navigation & Animation: Fixed tab indicator smoothly highlighting Search and instant search activation from bottom bar",
+    "Listen Together Host Control & Stream Sync: Fixed guest automatic track reception from host and defaulted room playback to Host Only Control",
+    "Admin Portal Cleanup: Streamlined administrative workflow with Google member profiles",
+    "Zero Lag Performance Optimization: Pre-cached viewmodels and smooth 60fps scrolling"
   ]
 }

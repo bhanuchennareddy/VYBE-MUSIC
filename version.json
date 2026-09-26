@@ -1,36 +1,44 @@
 {
-  "version": "4.1.3",
-  "versionCode": 8,
+  "version": "4.1.4",
+  "versionCode": 9,
   "forceUpdate": false,
   "minVersion": "4.1.0",
   "releaseDate": "September 26, 2026",
   "size": "69.1 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.3/VYBE-Music-v4.1.3.apk",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.4/VYBE-Music-v4.1.4.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE MUSIC v4.1.3 — Listen Together Beat Sync Same-Time Precision & Bass Boost, In-App Update Dialog with changelogs on home page, Admin portal cleanup & operator email fix, and host-only song stability.",
+  "description": "VYBE MUSIC v4.1.4 — Liquid Glass Navigation Bar Restored with Smooth Tab Indicator Animation, Google-Themed Update Dialog with Build Code & Google Verified Badge, and Automated Direct OTA Updates.",
   "changelog": [
     {
-      "title": "Listen Together Beat Sync Precision & Punchy Bass Boost",
+      "title": "Liquid Glass Navigation Bar & Tab Animation",
+      "items": [
+        "Restored Liquid Glass Theme: Frosted liquid glass backdrop with subtle luminous translucency and specular border outline on the bottom floating navigation bar",
+        "Smooth Spring-Physics Tab Sliding Animation: Selection indicator pill dynamically stretches and glides between tabs with responsive spring motion",
+        "Automatic Preference Migration: Upgraded installations automatically activate the liquid glass experience"
+      ]
+    },
+    {
+      "title": "Google-Themed In-App Update Dialog",
+      "items": [
+        "Authentic Google Aesthetic: Features the Google 'G' badge, Google Verified security pill, Google Blue pill buttons, and Google dark surface container",
+        "Build & Version Code Display: Prominently highlights Build 9 and Version 4.1.4 alongside formatted release notes",
+        "Direct OTA Update: Immediate notification prompt on home screen with one-tap install"
+      ]
+    },
+    {
+      "title": "Listen Together Beat Sync & Bass Boost",
       "items": [
         "Same Time Exact Accuracy: Tightly tuned drift thresholds (120ms snap seek, 20ms micro-adjust) and 1s high-precision heartbeats ensure both phones play at the exact same millisecond with zero audible echo",
         "Beat Sync Bass Boost: Hardware-accelerated low-frequency bass boost synchronized across connected phones for powerful, punchy party sound",
-        "Dedicated Bass Boost toggles in Room Controls and Settings for both Host and Guest listeners"
+        "Stream Sync & Host Control: Resolved guest audio track synchronization and defaulted room playback to Host Only Control"
       ]
     },
     {
-      "title": "In-App Update Dialog on Home Page",
+      "title": "2-Button & 3-Button Navigation Support",
       "items": [
-        "Automatic home page update popup displaying App Name (VYBE Music), version number, and structured bullet-point changelogs",
-        "Two-action control: 'Update Now' navigates directly to updater for instant download, while 'Later' cleanly dismisses dialog for the session",
-        "Seamless background GitHub release & version.json checks with zero UI latency"
-      ]
-    },
-    {
-      "title": "Admin Portal Cleanup & Member Improvements",
-      "items": [
-        "Admin Portal Cleanup: Cleaned up Admin screen by removing the registration guide card for a streamlined administrative workflow",
-        "Fixed admin email display bug: portal operator email (admin@vybemusic.app) is strictly filtered out from the Registered Members list",
-        "Rich Google Member Cards: displays Google profile avatar, display name, verified Google badge, registered email, and active device indicator"
+        "Navigation Mode Compatibility: Added dedicated protective backing behind Android 2-button and 3-button system navigation bars to eliminate visual clash",
+        "Ergonomic Floating Clearance: Elevated floating navigation bar to prevent accidental system button presses in 2-button and 3-button modes",
+        "Search Tab Indicator: Unified search into the liquid glass floating pill with smooth spring-physics sliding indicator"
       ]
     }
   ]
