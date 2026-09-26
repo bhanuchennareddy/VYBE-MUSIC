@@ -1,52 +1,45 @@
 {
-  "version": "4.1.1",
-  "versionCode": 6,
+  "version": "4.1.2",
+  "versionCode": 7,
   "forceUpdate": true,
-  "minVersion": "4.1.1",
+  "minVersion": "4.1.2",
   "releaseDate": "September 26, 2026",
   "size": "68.8 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.1/VYBE-Music-v4.1.1.apk",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.2/VYBE-Music-v4.1.2.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE MUSIC v4.1.1 — Listen Together Real-Time Playback Synchronization with Beat Sync drift micro-adjustment, restored guest play/pause controls, latency-compensated joins, and stability enhancements.",
+  "description": "VYBE MUSIC v4.1.2 — Zero Lag Performance Optimization, Prominent Sleep Timer in Now Playing Menu & Badge, 'Update Now' or 'Later' options, and Cleaned Update Settings.",
   "changelog": [
+    {
+      "title": "Zero Lag & Smooth Performance",
+      "items": [
+        "Unlocked full 90Hz / 120Hz / 144Hz high refresh rate hardware modes for ultra-responsive animations and silky scrolling",
+        "Optimized Compose GPU rendering by eliminating continuous offscreen backdrop captures when liquid glass is idle",
+        "Zero UI latency: buttery-smooth page transitions, drawer navigation, and player sheet expansion"
+      ]
+    },
+    {
+      "title": "Prominent Sleep Timer",
+      "items": [
+        "Added dedicated Sleep Timer pill button with live countdown directly in the Now Playing menu action grid",
+        "Added Sleep Timer as a top-level item in Player Menu with full interactive minutes slider and End of Song mode",
+        "Made audio quality/timer badge on player screen directly 1-tap clickable to set or adjust sleep timer"
+      ]
+    },
+    {
+      "title": "Update System Polish",
+      "items": [
+        "Added 'Update Now' or 'Later' options to Force Update overlay and Admin update dialogs with session deferral",
+        "Removed internal test and preview controls from Update Settings for a clean production interface",
+        "Admin Portal broadcast update notification button to trigger instant device alerts"
+      ]
+    },
     {
       "title": "Listen Together Real-Time Sync & Beat Sync",
       "items": [
-        "True local audio synchronization: host play, pause, resume, seek, and track change instantly sync and play on all room guests",
-        "Beat Sync: automatic micro-playback speed adjustment (1.03x / 0.97x) seamlessly eliminates drift without audio clicks or interruptions",
-        "Restored full Play/Pause controls in Player and Mini Player, removing confusing mute icon hijacking for guests",
-        "Initial Join & Reconnect Sync: guests immediately start playing at synchronized host timestamp with latency compensation",
-        "Participant control enabled by default with automatic 2-second host heartbeat synchronization"
-      ]
-    },
-    {
-      "title": "Recap & Social Sharing",
-      "items": [
-        "Added high-resolution 1080x1920 (9:16) Story Image Export directly to Instagram Stories and WhatsApp with Google-themed card branding",
-        "Added automatic calendar seasonal themes (Winter Chill, Spring Groove, Summer Vybe, Autumn Warmth) with dynamic animated gradient palettes"
-      ]
-    },
-    {
-      "title": "Listen Together Upgrades",
-      "items": [
-        "Live Floating Emoji Reactions: listeners can tap 🔥, ❤️, 👏, ⚡, 💃 to send real-time floating emoji reactions across all connected devices in the room"
-      ]
-    },
-    {
-      "title": "Player & System Polish",
-      "items": [
-        "Smart Sleep Timer with gentle 30-second volume fade-out preventing sudden stops",
-        "Offline-ready badges tinted with primary dynamic theme accents",
-        "Background GitHub automatic update checker on launch with system notifications",
-        "Complete rebranding of all localized strings, widgets, and themes to VYBE Music"
-      ]
-    },
-    {
-      "title": "Playback & Network Resiliency",
-      "items": [
-        "Resolved Playback failed IO_UNSPECIFIED (2000) with browser User-Agent headers and direct NewPipe stream fallback",
-        "Fixed mobile data infinite loading on Explore and Search with IPv4-prioritized DNS and safe caching",
-        "Extended connection and read timeouts for jitter-free cellular streaming"
+        "True local audio synchronization: host play, pause, resume, seek, and track change instantly sync on all connected guests",
+        "Beat Sync: automatic micro-playback speed adjustment (1.03x / 0.97x) seamlessly eliminates drift without audio clicks",
+        "Restored full Play/Pause controls in Player and Mini Player for guests",
+        "Latency-compensated instant join and reconnect playback synchronization"
       ]
     }
   ]
