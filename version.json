@@ -1,0 +1,41 @@
+{
+  "version": "4.1.0",
+  "versionCode": 5,
+  "releaseDate": "September 26, 2026",
+  "size": "68.7 MB",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.0/VYBE-Music-v4.1.0.apk",
+  "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
+  "description": "VYBE MUSIC v4.1.0 — Complete VYBE rebrand, Recap 9:16 Story export for Instagram/WhatsApp with seasonal themes, real-time floating emoji reactions in Listen Together, 30s gentle sleep timer fade-out, background GitHub auto-updater, and network playback fixes.",
+  "changelog": [
+    {
+      "title": "Recap & Social Sharing",
+      "items": [
+        "Added high-resolution 1080x1920 (9:16) Story Image Export directly to Instagram Stories and WhatsApp with Google-themed card branding",
+        "Added automatic calendar seasonal themes (Winter Chill, Spring Groove, Summer Vybe, Autumn Warmth) with dynamic animated gradient palettes"
+      ]
+    },
+    {
+      "title": "Listen Together Upgrades",
+      "items": [
+        "Live Floating Emoji Reactions: listeners can tap 🔥, ❤️, 👏, ⚡, 💃 to send real-time floating emoji reactions across all connected devices in the room"
+      ]
+    },
+    {
+      "title": "Player & System Polish",
+      "items": [
+        "Smart Sleep Timer with gentle 30-second volume fade-out preventing sudden stops",
+        "Offline-ready badges tinted with primary dynamic theme accents",
+        "Background GitHub automatic update checker on launch with system notifications",
+        "Complete rebranding of all localized strings, widgets, and themes to VYBE Music"
+      ]
+    },
+    {
+      "title": "Playback & Network Resiliency",
+      "items": [
+        "Resolved Playback failed IO_UNSPECIFIED (2000) with browser User-Agent headers and direct NewPipe stream fallback",
+        "Fixed mobile data infinite loading on Explore and Search with IPv4-prioritized DNS and safe caching",
+        "Extended connection and read timeouts for jitter-free cellular streaming"
+      ]
+    }
+  ]
+}

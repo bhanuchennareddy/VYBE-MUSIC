@@ -1,0 +1,23 @@
+{
+  "version": "4.1.0",
+  "versionCode": 5,
+  "description": "VYBE Music v4.1.0 — Complete VYBE rebrand, Recap 9:16 Instagram Story/WhatsApp HD image export with seasonal themes, Listen Together live floating emoji reactions, 30s gentle sleep timer fade-out, background GitHub auto-updater, and cellular playback resiliency.",
+  "changelog": [
+    "Recap 9:16 Instagram Story & WhatsApp HD Image Export with Google card branding",
+    "Seasonal Themes for Recap (Winter Chill, Spring Groove, Summer Vybe, Autumn Warmth)",
+    "Listen Together Live Floating Emoji Reactions (🔥, ❤️, 👏, ⚡, 💃) synced across all room listeners",
+    "Smart Sleep Timer with gentle 30-second volume fade-out",
+    "Accent-tinted offline badges for downloaded music",
+    "Background GitHub automatic update checker on launch with system notifications",
+    "Complete rebrand of all app strings, widgets, and themes to VYBE Music",
+    "Fixed cellular playback IO_UNSPECIFIED (2000) with browser User-Agent and NewPipe direct stream fallback",
+    "Resolved cellular network search and explore hanging with IPv4-first DNS",
+    "Home screen launch pinned strictly at top showing 3x3 Speed Dial",
+    "Dice roll now shuffles fresh music and automatically starts playing",
+    "Fixed Spotify WebView Google login and Liked Songs import",
+    "Listen Together autoplay sync fixed for joined members (player prepare + playWhenReady)",
+    "Admin Portal secured with 6-digit PIN (262007) and restricted to authorized admin email only",
+    "Live install and download tracker added in Admin Portal",
+    "Added Buy Me a Coffee Support Dialog with 1-tap Copy UPI ID (reddyabcr07@ybl)"
+  ]
+}
