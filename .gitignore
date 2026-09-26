@@ -1,0 +1,33 @@
+# Source modules (kept on private local-source branch)
+/app/
+/playback/
+/core/
+/innertube/
+/lyrics/
+/lrclib/
+/betterlyrics/
+/paxsenixlyrics/
+/kugou/
+/shazamkit/
+/simpmusic/
+/youlyplus/
+/artistvideo/
+/applecanvas/
+/canvas/
+/echomusiccanvas/
+/unison/
+/gradle/
+/scripts/
+/.githooks/
+/.idea/
+
+# Build & System files
+/.gradle/
+/.kotlin/
+/build/
+/local.properties
+/*.apk
+/*.bat
+/*.ps1
+*.iml
+.DS_Store
