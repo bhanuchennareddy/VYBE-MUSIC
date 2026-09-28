@@ -1,15 +1,16 @@
 {
-  "version": "4.1.8",
-  "versionCode": 11,
-  "description": "VYBE Music v4.1.8 — Social Video Music Identifier with Continuous Radio, Brand-New Transparent VYBE Update Dialog Logo, Native System Capsule Integration, and Real-Time Cross-Device Admin Push Notifications.",
+  "version": "4.1.9",
+  "versionCode": 12,
+  "description": "VYBE Music v4.1.9 - Listen Together Smooth Audio Sync, YouTube Mix & Radio Playlist Importer with Blank-Screen Prevention, Spotify Liked Songs Library Sync, and Seamless In-App Updates.",
   "changelog": [
-    "Instagram & Video Music Identification: Share reels, TikToks, or Shorts into VYBE Music to identify songs and play with 1 tap via clean bottom sheet dialog",
-    "Continuous Radio Playback: Play Now automatically queues infinite matching songs so your music never abruptly stops",
-    "Transparent VYBE Update Logo: Replaced legacy Google badge with high-visibility transparent VYBE logo without background",
-    "Native System Capsule Integration: Cooperates with Android punch-hole capsules (realme Mini Capsule, OnePlus Fluid Cloud, HyperOS) with no in-app collision",
-    "Real-Time Cross-Device Push Notifications: Announcements sent by admin to 'All Members' are broadcast instantly across all devices",
-    "Automatic Announcement Catch-Up: Offline or asleep devices catch up and display push alerts upon wake or startup",
-    "Liquid Glass Navigation Bar: Frosted translucent bottom pill with smooth spring tab glide",
-    "Listen Together Beat Sync Precision: Sub-20ms drift synchronization across all paired devices for zero-echo playback"
+    "Listen Together Audio Glitch Fix: Replaced aggressive 1-second hard seeks with smooth micro-speed adjustments (1.03x/0.97x) to eliminate all audio breaking, stuttering, and buffer drops for room guests",
+    "Buffered Drift Protection: Hard seeks are strictly rate-limited and suppressed during buffering to prevent audio choppiness",
+    "Optimized Room Heartbeat: Relaxed host sync heartbeat to 3000ms to prevent network flooding and audio conflicts",
+    "YouTube Mix & Radio Playlist Importer: Full import compatibility for YouTube Music radio and mix links (RD/RDGM series)",
+    "Blank Screen Prevention: Solved the empty playlist screen glitch by automatically resolving queue endpoints and providing clean empty placeholders",
+    "Smart Video ID Extraction: Automatically captures starting track video IDs from shared mix URLs for precision playback starts",
+    "Spotify Liked Songs Library Sync: Injected proper Spotify collection URI into GraphQL query variables, ensuring full access to user library tracks",
+    "Spotify Direct Liked Songs Import: Paste collection/tracks links directly into the importer for instant liked song extraction",
+    "Seamless In-App Updates: Removed redundant re-install buttons on latest version, ensuring smooth in-app OTA updates without reinstall confusion"
   ]
 }

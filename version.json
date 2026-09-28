@@ -1,17 +1,17 @@
 {
-  "version": "4.1.8",
-  "versionCode": 11,
+  "version": "4.1.9",
+  "versionCode": 12,
   "forceUpdate": false,
   "minVersion": "4.1.0",
-  "releaseDate": "September 26, 2026",
-  "size": "69.4 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.8/VYBE-Music-v4.1.8.apk",
+  "releaseDate": "September 28, 2026",
+  "size": "69.5 MB",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.9/VYBE-Music-v4.1.9.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v4.1.8 — Social Video Music Identifier with Continuous Radio, Brand-New Transparent VYBE Update Dialog Logo, Native System Capsule Integration, and Real-Time Cross-Device Admin Push Notifications.",
+  "description": "VYBE Music v4.1.9 - Listen Together Smooth Audio Sync, YouTube Mix & Radio Playlist Importer with Blank-Screen Prevention, Spotify Liked Songs Library Sync, and Seamless In-App Updates.",
   "announcement": {
-    "id": "announcement_welcome_v418",
-    "title": "Welcome To VYBE Music",
-    "message": "Welcome to VYBE Music v4.1.8! Enjoy infinite ad-free music, intelligent video sound identification with continuous radio, and sleek transparent VYBE branding.",
+    "id": "announcement_welcome_v419",
+    "title": "Welcome To VYBE Music v4.1.9",
+    "message": "Welcome to VYBE Music v4.1.9! Featuring ultra-smooth Listen Together audio synchronization without stuttering, full YouTube Radio & Mix playlist importing, Spotify Liked Songs sync, and seamless in-app OTA updates.",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -20,33 +20,34 @@
   },
   "changelog": [
     {
-      "title": "Instagram Reels, TikTok & Shorts Music Identifier",
+      "title": "Listen Together Smooth Audio Synchronization",
       "items": [
-        "Direct Share-to-Identify: Share any video link from Instagram Reels, TikTok, or YouTube Shorts directly into VYBE Music",
-        "Continuous Radio Playback: Tapping Play Now automatically initializes infinite radio playback matching the shared song style",
-        "Smart Video Sound Matcher: Crawls real audio metadata while gracefully falling back to built-in sound listening or manual search if no track is tagged",
-        "Clean Bottom Sheet Dialog: Non-intrusive bottom sheet displays identified track details, artwork, artist, and original audio source"
+        "Glitch-Free Guest Playback: Replaced aggressive 1-second hard seeks with smooth micro-speed adjustments (1.03x/0.97x) to eliminate all audio breaking, stuttering, and buffer flushes",
+        "Buffered Drift Protection: Hard seeks are strictly rate-limited and suppressed while buffering to ensure uninterrupted audio stream stability",
+        "Optimized Room Heartbeat: Relaxed host sync heartbeat to 3000ms to avoid network state flooding"
       ]
     },
     {
-      "title": "Transparent VYBE Update Dialog Branding",
+      "title": "YouTube Mix & Radio Playlist Importer",
       "items": [
-        "Brand-New Transparent VYBE Logo: Replaced legacy Google badge with high-visibility transparent VYBE logo without background",
-        "Streamlined Update Modal: Clean official update indicator with quick single-tap OTA download"
+        "Mix & Radio Support: Full import compatibility for YouTube Music radio and mix links (RD/RDGM series)",
+        "Zero Blank Screens: Solved the empty playlist screen glitch by automatically resolving queue endpoints and providing clean empty placeholders",
+        "Smart Video ID Extraction: Automatically captures starting track video IDs from shared mix URLs for precision playback starts"
       ]
     },
     {
-      "title": "Native Android System Media Integration",
+      "title": "Spotify Liked Songs Library Sync",
       "items": [
-        "Native System Capsule Support: Seamlessly cooperates with realme Mini Capsule, OnePlus Fluid Cloud, HyperOS, and Android system media notifications",
-        "Clean Top Bar Branding: Preserves complete unhindered visibility of the VYBE logo, together icon, and account avatar"
+        "Liked Songs Import Fixed: Injected proper Spotify collection URI into GraphQL query variables, ensuring full access to user library tracks",
+        "Direct Link Support: Paste 'collection/tracks' links directly into the importer for instant liked song extraction",
+        "Isolated Playlist Loading: Isolated playlist count fetching so Liked Songs always load reliably even if custom playlists fail"
       ]
     },
     {
-      "title": "Real-Time Cross-Device Admin Push Notifications",
+      "title": "Seamless In-App Updates",
       "items": [
-        "Instant Multi-Phone Delivery: Notifications sent from Admin Screen broadcast immediately across all member devices via pub/sub cloud relay",
-        "Automatic Catch-Up Sync: Offline devices automatically receive queued announcements on app startup or periodic background sync"
+        "No Reinstall Prompts: Removed redundant re-download buttons when the app is already on the latest version",
+        "Clean In-App OTA Update: When an update is available, download and install directly inside the app without uninstalling or reinstalling"
       ]
     }
   ]
