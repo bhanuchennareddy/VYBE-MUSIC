@@ -1,17 +1,17 @@
 {
-  "version": "4.1.9",
-  "versionCode": 12,
+  "version": "4.2.0",
+  "versionCode": 13,
   "forceUpdate": false,
   "minVersion": "4.1.0",
   "releaseDate": "September 28, 2026",
   "size": "69.5 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.1.9/VYBE-Music-v4.1.9.apk",
+  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.2.0/VYBE-Music-v4.2.0.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v4.1.9 - Listen Together Smooth Audio Sync, YouTube Mix & Radio Playlist Importer with Blank-Screen Prevention, Spotify Liked Songs Library Sync, and Seamless In-App Updates.",
+  "description": "VYBE Music v4.2.0 - Complete YouTube Playlist Import (Zero Missing Songs), Instant Playback for Imported Songs, Protected Playlist Sync, Total Listening Hours & Installed Days in Library, and Spotify Matching Fallback.",
   "announcement": {
-    "id": "announcement_welcome_v419",
-    "title": "Welcome To VYBE Music v4.1.9",
-    "message": "Welcome to VYBE Music v4.1.9! Featuring ultra-smooth Listen Together audio synchronization without stuttering, full YouTube Radio & Mix playlist importing, Spotify Liked Songs sync, and seamless in-app OTA updates.",
+    "id": "announcement_welcome_v420",
+    "title": "Welcome To VYBE Music v4.2.0",
+    "message": "Welcome to VYBE Music v4.2.0! Featuring complete YouTube playlist imports with all songs included, instant playback for imported songs, dynamic radio/mix pagination, total listening hours & installed days right in your library, and enhanced Spotify search accuracy.",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -20,34 +20,31 @@
   },
   "changelog": [
     {
-      "title": "Listen Together Smooth Audio Synchronization",
+      "title": "Complete YouTube Playlist Import & Zero Missing Songs",
       "items": [
-        "Glitch-Free Guest Playback: Replaced aggressive 1-second hard seeks with smooth micro-speed adjustments (1.03x/0.97x) to eliminate all audio breaking, stuttering, and buffer flushes",
-        "Buffered Drift Protection: Hard seeks are strictly rate-limited and suppressed while buffering to ensure uninterrupted audio stream stability",
-        "Optimized Room Heartbeat: Relaxed host sync heartbeat to 3000ms to avoid network state flooding"
+        "Full Pagination on Import: All playlist tracks across all pages are imported without truncating or missing songs",
+        "YouTube Radio & Mix Continuations: Added seamless /next continuation support so dynamic queues and mixes load completely",
+        "Direct Library Navigation: After import, automatically opens your newly created library playlist with all songs ready to play"
       ]
     },
     {
-      "title": "YouTube Mix & Radio Playlist Importer",
+      "title": "Instant Playback for Imported Songs",
       "items": [
-        "Mix & Radio Support: Full import compatibility for YouTube Music radio and mix links (RD/RDGM series)",
-        "Zero Blank Screens: Solved the empty playlist screen glitch by automatically resolving queue endpoints and providing clean empty placeholders",
-        "Smart Video ID Extraction: Automatically captures starting track video IDs from shared mix URLs for precision playback starts"
+        "Fixed Playback from Imported Playlists: Resolved media stream resolution and videoId extraction so songs play immediately when tapped",
+        "Protected Local Playlists: Prevented playlist wipeouts by skipping destructive clearing on empty remote responses or radio mixes"
       ]
     },
     {
-      "title": "Spotify Liked Songs Library Sync",
+      "title": "Listening Stats in Library",
       "items": [
-        "Liked Songs Import Fixed: Injected proper Spotify collection URI into GraphQL query variables, ensuring full access to user library tracks",
-        "Direct Link Support: Paste 'collection/tracks' links directly into the importer for instant liked song extraction",
-        "Isolated Playlist Loading: Isolated playlist count fetching so Liked Songs always load reliably even if custom playlists fail"
+        "Replaced Recap: Display total listening hours and days since the app was installed right in your library playlists and mix screens",
+        "Quick Access to Insights: Tap the listening stats button to jump straight into detailed listening stats and history"
       ]
     },
     {
-      "title": "Seamless In-App Updates",
+      "title": "Enhanced Spotify Matching Accuracy",
       "items": [
-        "No Reinstall Prompts: Removed redundant re-download buttons when the app is already on the latest version",
-        "Clean In-App OTA Update: When an update is available, download and install directly inside the app without uninstalling or reinstalling"
+        "Fallback Song Search: Added automatic fallback search without strict song filters so Spotify tracks are never missed during import"
       ]
     }
   ]
