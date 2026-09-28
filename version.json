@@ -7,11 +7,11 @@
   "size": "69.5 MB",
   "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.2.0/VYBE-Music-v4.2.0.apk",
   "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v4.2.0 - Complete YouTube Playlist Import (Zero Missing Songs), Instant Playback for Imported Songs, Protected Playlist Sync, Total Listening Hours & Installed Days in Library, and Spotify Matching Fallback.",
+  "description": "VYBE Music v4.2.0 - YouTube Playlist Import & Refresh Persistence Fix, Real Phone Stream Playback Fix, Listen Together Host/Guest Sync Fix, and Battery Optimization.",
   "announcement": {
     "id": "announcement_welcome_v420",
     "title": "Welcome To VYBE Music v4.2.0",
-    "message": "Welcome to VYBE Music v4.2.0! Featuring complete YouTube playlist imports with all songs included, instant playback for imported songs, dynamic radio/mix pagination, total listening hours & installed days right in your library, and enhanced Spotify search accuracy.",
+    "message": "Welcome to VYBE Music v4.2.0! Fixed playlist imports vanishing on refresh, stream playback on mobile carrier networks, Listen Together pause synchronization, and extensive battery life optimizations.",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -20,31 +20,38 @@
   },
   "changelog": [
     {
-      "title": "Complete YouTube Playlist Import & Zero Missing Songs",
+      "title": "Playlist Import & Persistence Fixes",
       "items": [
-        "Full Pagination on Import: All playlist tracks across all pages are imported without truncating or missing songs",
-        "YouTube Radio & Mix Continuations: Added seamless /next continuation support so dynamic queues and mixes load completely",
-        "Direct Library Navigation: After import, automatically opens your newly created library playlist with all songs ready to play"
+        "Fixed Disappearing Playlists: Local & imported playlists are now permanently bookmarked and protected from being wiped or hidden on library refresh or account sync",
+        "Complete Pagination: YouTube playlists import all tracks across pages with zero missing songs and full dynamic mix/radio support"
       ]
     },
     {
-      "title": "Instant Playback for Imported Songs",
+      "title": "Real Phone Stream Playback",
       "items": [
-        "Fixed Playback from Imported Playlists: Resolved media stream resolution and videoId extraction so songs play immediately when tapped",
-        "Protected Local Playlists: Prevented playlist wipeouts by skipping destructive clearing on empty remote responses or radio mixes"
+        "Fixed Mobile Network 403 Forbidden: Corrected User-Agent matching and added range probe fallback so streams play reliably on real phones and cellular networks (Jio, Airtel, etc.)",
+        "Fallback Stream Resolution: Seamless fallback to high-compatibility stream formats if direct probe is restricted"
+      ]
+    },
+    {
+      "title": "Listen Together Synchronized Playback",
+      "items": [
+        "Instant Pause on Guest Phones: When the host pauses, stops, or changes songs, guest devices immediately pause instead of continuing to play",
+        "Track End Handling: End-of-track and player clearing are synchronized across all connected listeners"
+      ]
+    },
+    {
+      "title": "Battery Usage Optimization",
+      "items": [
+        "Background Widget Optimization: Disabled 1-second background refresh loop when no home screen widgets are active",
+        "Optimized WiFi & Wake Locks: Reduced network locks and minimized UI polling frequency during playback to drastically reduce battery drain"
       ]
     },
     {
       "title": "Listening Stats in Library",
       "items": [
-        "Replaced Recap: Display total listening hours and days since the app was installed right in your library playlists and mix screens",
-        "Quick Access to Insights: Tap the listening stats button to jump straight into detailed listening stats and history"
-      ]
-    },
-    {
-      "title": "Enhanced Spotify Matching Accuracy",
-      "items": [
-        "Fallback Song Search: Added automatic fallback search without strict song filters so Spotify tracks are never missed during import"
+        "Replaced Recap: Display total listening hours and days since the app was installed right in your library",
+        "Quick Access to Insights: Tap the listening stats button to jump straight into detailed stats and history"
       ]
     }
   ]

@@ -1,14 +1,13 @@
 {
   "version": "4.2.0",
   "versionCode": 13,
-  "description": "VYBE Music v4.2.0 - Complete YouTube Playlist Import (Zero Missing Songs), Instant Playback for Imported Songs, Protected Playlist Sync, Total Listening Hours & Installed Days in Library, and Spotify Matching Fallback.",
+  "description": "VYBE Music v4.2.0 - YouTube Playlist Import & Refresh Persistence Fix, Real Phone Stream Playback Fix, Listen Together Host/Guest Sync Fix, and Battery Optimization.",
   "changelog": [
-    "Full YouTube Playlist Import: Imported playlists now fetch all pages with zero missing songs",
-    "Instant Playback for Imported Songs: Songs from imported playlists now start immediately without playback errors",
-    "YouTube Radio & Mix Continuations: Added seamless /next pagination for dynamic YouTube radio queues",
-    "Protected Local Playlists: Fixed bug where playlists were wiped if remote sync returned empty or dynamic radio was refreshed",
-    "Listening Stats in Library: In place of Recap, library now displays total listening hours and days since the app was installed",
-    "Spotify Search Matching Fallback: Added automatic broad search fallback to maximize song matching accuracy when importing Spotify tracks",
-    "Direct Library Navigation: Importing a playlist now takes you directly to your ready-to-play library playlist"
+    "Fixed Disappearing Playlists: Local & imported playlists are now permanently bookmarked and protected from being wiped or hidden on library refresh or account sync",
+    "Real Phone Stream Playback: Resolved stream CDN 403 Forbidden issues on mobile networks by using client User-Agent and range fallback",
+    "Listen Together Synchronization: When host pauses, stops, or changes songs, guest devices immediately pause instead of continuing to play",
+    "Battery Usage Optimization: Disabled background widget loop when no widgets exist, optimized WiFi locks, and reduced position polling frequency",
+    "Full YouTube Playlist Import: Imported playlists fetch all pages with zero missing songs and full dynamic mix/radio support",
+    "Listening Stats in Library: In place of Recap, library now displays total listening hours and days since the app was installed"
   ]
 }
