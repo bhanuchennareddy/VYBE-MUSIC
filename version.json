@@ -7,11 +7,11 @@
   "size": "69.8 MB",
   "apkUrl": "https://github.com/terontech-it/VYBE-MUSIC/releases/download/v5.0.0/VYBE-Music-v5.0.0.apk",
   "imageUrl": "https://raw.githubusercontent.com/terontech-it/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v5.0.0 - Official TERON TECH (IT Sector) Rebrand, Admin App Info & Social Links Customization, Custom App Icon Picker, and Navigation Crash Fixes.",
+  "description": "VYBE Music v5.0.0 - Official TERON TECH (IT Sector) Rebrand, Custom App Icon Picker, Live GitHub Contributors Sync, and Navigation Crash Fixes.",
   "announcement": {
     "id": "announcement_welcome_v500",
     "title": "Welcome To VYBE Music v5.0.0",
-    "message": "Welcome to VYBE Music v5.0.0 by TERON TECH! Enjoy customizable admin social links, custom phone app icons, crash fixes, and seamless synchronization.",
+    "message": "Welcome to VYBE Music v5.0.0 by TERON TECH! Enjoy customizable phone app icons, live contributors, crash fixes, and seamless synchronization.",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -23,15 +23,7 @@
       "title": "TERON TECH (IT Sector) Rebranding",
       "items": [
         "Official Startup Migration: Fully transitioned organization branding and repository to TERON TECH (IT Sector)",
-        "Updated License & Docs: GPL v3.0 copyright and comprehensive metadata updated to reflect TERON TECH and ABC Reddy"
-      ]
-    },
-    {
-      "title": "Admin App Info & Social Links Control",
-      "items": [
-        "Editable Social Links: Admin can now configure GitHub and Instagram profile URLs and titles directly inside the app",
-        "Editable Metadata & Contributors: Custom startup name, developer name, contributors list, and version overrides with live preview",
-        "Dynamic About Screen: Settings About screen and Welcome dialog now dynamically load admin configurations in real-time"
+        "Updated License & Docs: GPL v3.0 copyright and comprehensive metadata updated to reflect TERON TECH"
       ]
     },
     {
