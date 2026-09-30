@@ -1,17 +1,17 @@
 {
-  "version": "4.2.0",
-  "versionCode": 13,
+  "version": "5.0.0",
+  "versionCode": 14,
   "forceUpdate": false,
-  "minVersion": "4.1.0",
-  "releaseDate": "September 28, 2026",
-  "size": "69.5 MB",
-  "apkUrl": "https://github.com/trionesolutionsprt-sys/VYBE-MUSIC/releases/download/v4.2.0/VYBE-Music-v4.2.0.apk",
-  "imageUrl": "https://raw.githubusercontent.com/trionesolutionsprt-sys/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v4.2.0 - YouTube Playlist Import & Refresh Persistence Fix, Real Phone Stream Playback Fix, Listen Together Host/Guest Sync Fix, and Battery Optimization.",
+  "minVersion": "4.2.0",
+  "releaseDate": "September 30, 2026",
+  "size": "69.8 MB",
+  "apkUrl": "https://github.com/terontech-it/VYBE-MUSIC/releases/download/v5.0.0/VYBE-Music-v5.0.0.apk",
+  "imageUrl": "https://raw.githubusercontent.com/terontech-it/VYBE-MUSIC/main/assets/vybe_logo.png",
+  "description": "VYBE Music v5.0.0 - Official TERON TECH (IT Sector) Rebrand, Admin App Info & Social Links Customization, Custom App Icon Picker, and Navigation Crash Fixes.",
   "announcement": {
-    "id": "announcement_welcome_v420",
-    "title": "Welcome To VYBE Music v4.2.0",
-    "message": "Welcome to VYBE Music v4.2.0! Fixed playlist imports vanishing on refresh, stream playback on mobile carrier networks, Listen Together pause synchronization, and extensive battery life optimizations.",
+    "id": "announcement_welcome_v500",
+    "title": "Welcome To VYBE Music v5.0.0",
+    "message": "Welcome to VYBE Music v5.0.0 by TERON TECH! Enjoy customizable admin social links, custom phone app icons, crash fixes, and seamless synchronization.",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -20,7 +20,29 @@
   },
   "changelog": [
     {
-      "title": "Playlist Import & Persistence Fixes",
+      "title": "TERON TECH (IT Sector) Rebranding",
+      "items": [
+        "Official Startup Migration: Fully transitioned organization branding and repository to TERON TECH (IT Sector)",
+        "Updated License & Docs: GPL v3.0 copyright and comprehensive metadata updated to reflect TERON TECH and ABC Reddy"
+      ]
+    },
+    {
+      "title": "Admin App Info & Social Links Control",
+      "items": [
+        "Editable Social Links: Admin can now configure GitHub and Instagram profile URLs and titles directly inside the app",
+        "Editable Metadata & Contributors: Custom startup name, developer name, contributors list, and version overrides with live preview",
+        "Dynamic About Screen: Settings About screen and Welcome dialog now dynamically load admin configurations in real-time"
+      ]
+    },
+    {
+      "title": "App Icon Customization & Crash Fix",
+      "items": [
+        "Navigation Crash Resolved: Fixed destination route settings/app_icon missing error",
+        "Custom Storage Upload: Admin and users can select custom app icons from phone gallery/storage with smooth scrolling and responsive UI"
+      ]
+    },
+    {
+      "title": "Playlist & Playback Fixes",
       "items": [
         "Fixed Disappearing Playlists: Local & imported playlists are now permanently bookmarked and protected from being wiped or hidden on library refresh or account sync",
         "Complete Pagination: YouTube playlists import all tracks across pages with zero missing songs and full dynamic mix/radio support"

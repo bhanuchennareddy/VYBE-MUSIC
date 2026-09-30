@@ -1,13 +1,12 @@
 {
-  "version": "4.2.0",
-  "versionCode": 13,
-  "description": "VYBE Music v4.2.0 - YouTube Playlist Import & Refresh Persistence Fix, Real Phone Stream Playback Fix, Listen Together Host/Guest Sync Fix, and Battery Optimization.",
+  "version": "5.0.0",
+  "versionCode": 14,
+  "description": "VYBE Music v5.0.0 - Official TERON TECH (IT Sector) Rebrand, Live GitHub Contributors Sync, Custom App Icon Storage Upload, and Admin App Info Management.",
   "changelog": [
-    "Fixed Disappearing Playlists: Local & imported playlists are now permanently bookmarked and protected from being wiped or hidden on library refresh or account sync",
-    "Real Phone Stream Playback: Resolved stream CDN 403 Forbidden issues on mobile networks by using client User-Agent and range fallback",
-    "Listen Together Synchronization: When host pauses, stops, or changes songs, guest devices immediately pause instead of continuing to play",
-    "Battery Usage Optimization: Disabled background widget loop when no widgets exist, optimized WiFi locks, and reduced position polling frequency",
-    "Full YouTube Playlist Import: Imported playlists fetch all pages with zero missing songs and full dynamic mix/radio support",
-    "Listening Stats in Library: In place of Recap, library now displays total listening hours and days since the app was installed"
+    "TERON TECH (IT Sector) Rebranding: Official repository and project startup ownership transitioned to TERON TECH with updated GPL v3.0 license and docs",
+    "Live GitHub Contributors: App dynamically synchronizes with GitHub repository contributors in real-time with LIVE indicator",
+    "Custom App Icon Manager: Deleted legacy preset icons, set official VYBE default, and enabled custom icon uploads from phone storage with admin deletion",
+    "Admin App Info & Social Links: Real-time in-app customization of startup name, repository links, version display overrides, and 1-tap contributor sync",
+    "Bug & Crash Fixes: Fixed settings/app_icon navigation graph crash, optimized Listen Together room sync, and refined Android 15/17 compatibility"
   ]
 }

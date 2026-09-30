@@ -1,22 +1,37 @@
 <div align="center">
   <img src="assets/vybe_logo.png" alt="VYBE Logo" width="140" style="border-radius: 28px;"/>
 
-  <h1>VYBE</h1>
+  <h1>VYBE Music</h1>
 
-  <p><b>A modern Android music app with ad-free streaming, synced lyrics, offline playback, and an intuitive user experience.</b></p>
-  <p>Developed by <b>ABC Reddy</b> (<a href="https://www.instagram.com/reddy_abcr_/?hl=en">@reddy_abcr_</a>)</p>
+  <p><b>A modern Android music streaming powerhouse by TERON TECH (IT Sector) & ABC Reddy with ad-free playback, real-time synchronized lyrics, offline downloads, Listen Together sync, and custom ambient UI.</b></p>
+
+  <p>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="License: GPL v3"/></a>
+    <a href="https://github.com/terontech-it/VYBE-MUSIC/releases"><img src="https://img.shields.io/badge/Release-v5.0.0-success.svg" alt="Release"/></a>
+    <img src="https://img.shields.io/badge/Android-7.0%2B-green.svg" alt="Android 7.0+"/>
+    <a href="https://github.com/terontech-it"><img src="https://img.shields.io/badge/Startup-TERON%20TECH%20(IT%20Sector)-6c5ce7.svg" alt="TERON TECH"/></a>
+  </p>
+
+  <p>Developed by <b>TERON TECH</b> & <b>ABC Reddy</b> (<a href="https://www.instagram.com/reddy_abcr_/?hl=en">@reddy_abcr_</a>)</p>
 </div>
 
 ---
 
-## Overview
+## 🏢 About TERON TECH & VYBE Music
 
-**VYBE** delivers a seamless, premium listening experience by leveraging YouTube Music's vast library — without the ads. It adds powerful extras including offline downloads, real-time synchronized lyrics, background playback, and environment-aware music recognition.
+**VYBE Music** is developed and maintained by **TERON TECH** (IT Sector) in collaboration with Lead Developer **ABC Reddy**.
+
+Built with modern Android standards (**Kotlin**, **Jetpack Compose**, **Material 3 / Material You**, **Media3 / ExoPlayer**, and **Room Database**), VYBE is engineered to provide an ad-free, high-fidelity music streaming and synchronization platform.
 
 ---
 
-- **Developer**: ABC Reddy
+### 📌 Project Metadata
+- **Organization / Startup**: **TERON TECH** (IT Sector)
+- **Official Repository**: [https://github.com/terontech-it/VYBE-MUSIC](https://github.com/terontech-it/VYBE-MUSIC)
+- **Lead Developer**: ABC Reddy
+- **Contributors**: TERON TECH, ABC Reddy
 - **Developer Instagram**: [@reddy_abcr_](https://www.instagram.com/reddy_abcr_/?hl=en)
+- **License**: [GNU General Public License v3.0 (GPL-3.0)](LICENSE)
 - **Support / Buy Me a Coffee (UPI)**: `reddyabcr07@ybl` (PhonePe, Google Pay, Paytm)
 
 ---
