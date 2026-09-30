@@ -1,11 +1,12 @@
 {
-  "version": "5.0.0",
-  "versionCode": 14,
-  "description": "VYBE Music v5.0.0 - Official TERON TECH (IT Sector) Rebrand, Live GitHub Contributors Sync, Custom App Icon Storage Upload, and Crash Fixes.",
+  "version": "5.0.1",
+  "versionCode": 15,
+  "description": "VYBE Music v5.0.1 - 8 New Official App Icons for all users, Founder & Co-Founder profiles, Admin controls privacy fix, and silent admin portal access.",
   "changelog": [
-    "TERON TECH (IT Sector) Rebranding: Official repository and project startup ownership transitioned to TERON TECH with updated GPL v3.0 license and docs",
-    "Live GitHub Contributors: App dynamically synchronizes with GitHub repository contributors in real-time with LIVE indicator",
-    "Custom App Icon Manager: Deleted legacy preset icons, set official VYBE default, and enabled custom icon uploads from phone storage with admin deletion",
-    "Bug & Crash Fixes: Fixed settings/app_icon navigation graph crash, optimized Listen Together room sync, and refined Android 15/17 compatibility"
+    "8 Official App Icons: Built-in 8 new vibrant icons (Lofi Sunset Monkey, Meow Beats Cat, Cloud Melody Pup, Holo Vinyl Disc, Midnight Anime Boy, Cosmic Pixel Saturn, Retro Glitch Cat, Halftone Cyber Cat) selectable by all users",
+    "Admin Controls Privacy: Admin Icon Controls upload panel is strictly hidden from regular users and reserved for verified administrators",
+    "Founder & Co-Founder Profiles: Added direct profile links for REDDY ABC (@bhanuchennareddy) and @saidharaneedharr-lang in the About screen",
+    "Live Contributors Sanitization: Contributors list dynamically synchronizes clean repository contributors while filtering legacy test names",
+    "Silent Admin Portal Access: Removed countdown toast message when tapping Organization 7 times"
   ]
 }
