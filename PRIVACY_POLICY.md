@@ -119,8 +119,8 @@ We may update this Privacy Policy from time to time. We will notify you of any c
 
 If you have any questions about this Privacy Policy or our data practices, please contact us:
 
-- **GitHub**: [https://github.com/terontech-it/VYBE-MUSIC](https://github.com/terontech-it/VYBE-MUSIC)
-- **Issues**: [https://github.com/terontech-it/VYBE-MUSIC/issues](https://github.com/terontech-it/VYBE-MUSIC/issues)
+- **GitHub**: [https://github.com/bhanuchennareddy/VYBE-MUSIC](https://github.com/bhanuchennareddy/VYBE-MUSIC)
+- **Issues**: [https://github.com/bhanuchennareddy/VYBE-MUSIC/issues](https://github.com/bhanuchennareddy/VYBE-MUSIC/issues)
 - **Developer**: [https://www.instagram.com/lg_dark_7](https://www.instagram.com/lg_dark_7)
 
 ## Data Protection Compliance

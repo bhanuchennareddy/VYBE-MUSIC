@@ -77,4 +77,4 @@ For answers to common questions about this code of conduct, see the FAQ at https
 
 ## Contact
 
-For questions about this Code of Conduct, please contact via https://github.com/terontech-it/VYBE-MUSIC.
+For questions about this Code of Conduct, please contact via https://github.com/bhanuchennareddy/VYBE-MUSIC.

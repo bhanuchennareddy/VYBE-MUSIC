@@ -65,7 +65,7 @@ We are committed to providing a welcoming and inspiring community for all. We pl
 1. Fork the repository on GitHub
 2. Clone your fork locally:
    ```bash
-   git clone https://github.com/terontech-it/VYBE-MUSIC.git
+   git clone https://github.com/bhanuchennareddy/VYBE-MUSIC.git
    cd VYBE-MUSIC
    ```
 
@@ -424,7 +424,7 @@ We follow [Semantic Versioning](https://semver.org/):
 
 If you have questions about contributing:
 
-1. Open an issue on [GitHub](https://github.com/terontech-it/VYBE-MUSIC/issues)
+1. Open an issue on [GitHub](https://github.com/bhanuchennareddy/VYBE-MUSIC/issues)
 2. Contact maintainer on [Instagram](https://www.instagram.com/lg_dark_7)
 
 Thank you for contributing to VYBE!

@@ -7,9 +7,8 @@
 
   <p>
     <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg" alt="License: GPL v3"/></a>
-    <a href="https://github.com/terontech-it/VYBE-MUSIC/releases"><img src="https://img.shields.io/badge/Release-v5.0.0-success.svg" alt="Release"/></a>
+    <a href="https://github.com/bhanuchennareddy/VYBE-MUSIC/releases"><img src="https://img.shields.io/badge/Release-v5.0.1-success.svg" alt="Release"/></a>
     <img src="https://img.shields.io/badge/Android-7.0%2B-green.svg" alt="Android 7.0+"/>
-    <a href="https://github.com/terontech-it"><img src="https://img.shields.io/badge/Startup-TERON%20TECH%20(IT%20Sector)-6c5ce7.svg" alt="TERON TECH"/></a>
   </p>
 
   <p>Developed by <b>TERON TECH</b> & <b>ABC Reddy</b> (<a href="https://www.instagram.com/reddy_abcr_/?hl=en">@reddy_abcr_</a>)</p>
@@ -27,7 +26,7 @@ Built with modern Android standards (**Kotlin**, **Jetpack Compose**, **Material
 
 ### 📌 Project Metadata
 - **Organization / Startup**: **TERON TECH** (IT Sector)
-- **Official Repository**: [https://github.com/terontech-it/VYBE-MUSIC](https://github.com/terontech-it/VYBE-MUSIC)
+- **Official Repository**: [https://github.com/bhanuchennareddy/VYBE-MUSIC](https://github.com/bhanuchennareddy/VYBE-MUSIC)
 - **Lead Developer**: ABC Reddy
 - **Contributors**: TERON TECH, ABC Reddy
 - **Developer Instagram**: [@reddy_abcr_](https://www.instagram.com/reddy_abcr_/?hl=en)
