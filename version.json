@@ -3,15 +3,15 @@
   "versionCode": 15,
   "forceUpdate": false,
   "minVersion": "4.2.0",
-  "releaseDate": "September 30, 2026",
-  "size": "70.2 MB",
+  "releaseDate": "October 3, 2026",
+  "size": "72.1 MB",
   "apkUrl": "https://github.com/bhanuchennareddy/VYBE-MUSIC/releases/download/v5.0.1/VYBE-Music-v5.0.1.apk",
   "imageUrl": "https://raw.githubusercontent.com/bhanuchennareddy/VYBE-MUSIC/main/assets/vybe_logo.png",
-  "description": "VYBE Music v5.0.1 - 8 New Official App Icons for all users, Founder & Co-Founder profiles, Admin controls privacy fix, and silent admin portal access.",
+  "description": "VYBE Music v5.0.1 - Listen Together Instant Host Skip Sync, In-Track Seek Guard, Immediate Track Broadcast, and 8 New Official App Icons.",
   "announcement": {
     "id": "announcement_welcome_v501",
     "title": "Welcome To VYBE Music v5.0.1",
-    "message": "Enjoy 8 brand new vibrant app icons visible to all users, official founder profiles, and enhanced privacy and performance!",
+    "message": "Enjoy real-time Listen Together synchronized skipping & seeking, 8 new official app icons, and enhanced stability!",
     "type": "INFO",
     "enabled": true,
     "targetEmail": "",
@@ -59,6 +59,9 @@
     {
       "title": "Listen Together Synchronized Playback",
       "items": [
+        "Instant Host Skip Sync: When the host skips a song (Next or Previous), all guests immediately transition to the exact new song instead of replaying the old song",
+        "In-Track Seek Guard: Fixed false SEEK(0ms) events during song transitions that caused previous tracks to restart from the beginning on guests",
+        "Immediate Track Broadcast: Bypassed syncing lock during track transitions so the host always broadcasts the new song's YouTube metadata to everyone in the room",
         "Instant Pause on Guest Phones: When the host pauses, stops, or changes songs, guest devices immediately pause instead of continuing to play",
         "Track End Handling: End-of-track and player clearing are synchronized across all connected listeners"
       ]

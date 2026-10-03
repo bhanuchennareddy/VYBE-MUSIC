@@ -1,12 +1,15 @@
 {
   "version": "5.0.1",
   "versionCode": 15,
-  "description": "VYBE Music v5.0.1 - 8 New Official App Icons for all users, Founder & Co-Founder profiles, Admin controls privacy fix, and silent admin portal access.",
+  "description": "VYBE Music v5.0.1 - Listen Together Instant Host Skip Sync, In-Track Seek Guard, Immediate Track Broadcast, and 8 New Official App Icons.",
   "changelog": [
     "8 Official App Icons: Built-in 8 new vibrant icons (Lofi Sunset Monkey, Meow Beats Cat, Cloud Melody Pup, Holo Vinyl Disc, Midnight Anime Boy, Cosmic Pixel Saturn, Retro Glitch Cat, Halftone Cyber Cat) selectable by all users",
     "Admin Controls Privacy: Admin Icon Controls upload panel is strictly hidden from regular users and reserved for verified administrators",
     "Founder & Co-Founder Profiles: Added direct profile links for REDDY ABC (@bhanuchennareddy) and @saidharaneedharr-lang in the About screen",
     "Live Contributors Sanitization: Contributors list dynamically synchronizes clean repository contributors while filtering legacy test names",
-    "Silent Admin Portal Access: Removed countdown toast message when tapping Organization 7 times"
+    "Silent Admin Portal Access: Removed countdown toast message when tapping Organization 7 times",
+    "Instant Host Skip Sync: When the host skips a song (Next or Previous), all guests immediately transition to the exact new song instead of replaying the old song",
+    "In-Track Seek Guard: Fixed false SEEK(0ms) events during song transitions that caused previous tracks to restart from the beginning on guests",
+    "Immediate Track Broadcast: Bypassed syncing lock during track transitions so the host always broadcasts the new song's YouTube metadata to everyone in the room"
   ]
 }
